@@ -122,7 +122,7 @@
                 "phpVersion": "",
                 "pythonVersion": "",
                 "nodeVersion": "",
-                "linuxFxVersion": "DOCKER|nginx",
+                "linuxFxVersion": "DOCKER|cfselau/brcaepi",
                 "requestTracingEnabled": false,
                 "remoteDebuggingEnabled": false,
                 "remoteDebuggingVersion": null,
