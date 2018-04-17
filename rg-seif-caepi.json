@@ -237,7 +237,7 @@
             },
             "properties": {
                  "DOCKER_REGISTRY_SERVER_PASSWORD": "TestAzure@18",
-                 "DOCKER_REGISTRY_SERVER_USERNAME": "cfselau
+                 "DOCKER_REGISTRY_SERVER_USERNAME": "cfselau"
             }
        }
     ]
