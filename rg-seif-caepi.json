@@ -10,8 +10,25 @@
             "defaultValue": "PS-SEIF-CAEPI",
             "type": "String"
         },
-        "docker_param": {
-            "type": "array"
+        "docker_image_name": {
+            "defaultValue": "docker_image_name",
+            "type": "string"
+        },
+        "docker_image_run_command": {
+            "defaultValue": "docker_image_run_command",
+            "type": "string"
+        },
+        "docker_registry_url": {
+            "defaultValue": "docker_registry_url",
+            "type": "string"
+        },
+        "docker_registry_username": {
+            "defaultValue": "docker_registry_username",
+            "type": "string"
+        },
+        "docker_registry_password": {
+            "defaultValue": "docker_registry_password",
+            "type": "string"
         }
     },
     "variables": {},
@@ -73,11 +90,11 @@
                   "displayName": "appSettings"
                 },
                 "properties": { 
-                  "DOCKER_CUSTOM_IMAGE_NAME": "[parameters('docker_param')[copyIndex()].image_name]",
-                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "[parameters('docker_param')[copyIndex()].image_run_command]",
-                  "DOCKER_REGISTRY_SERVER_URL": "[parameters('docker_param')[copyIndex()].registry_url]",
-                  "DOCKER_REGISTRY_SERVER_USERNAME": "[parameters('docker_param')[copyIndex()].registry_username]",
-                  "DOCKER_REGISTRY_SERVER_PASSWORD": "[parameters('docker_param')[copyIndex()].registry_password]"
+                  "DOCKER_CUSTOM_IMAGE_NAME": "[parameters('docker_image_name]",
+                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "[parameters('docker_image_run_command]",
+                  "DOCKER_REGISTRY_SERVER_URL": "[parameters('docker_registry_url]",
+                  "DOCKER_REGISTRY_SERVER_USERNAME": "[parameters('docker_registry_username]",
+                  "DOCKER_REGISTRY_SERVER_PASSWORD": "[parameters('docker_registry_password]"
                 }
               }
             ]          
