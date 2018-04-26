@@ -90,11 +90,11 @@
                   "displayName": "appSettings"
                 },
                 "properties": { 
-                  "DOCKER_CUSTOM_IMAGE_NAME": "[parameters('docker_image_name]",
-                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "[parameters('docker_image_run_command]",
-                  "DOCKER_REGISTRY_SERVER_URL": "[parameters('docker_registry_url]",
-                  "DOCKER_REGISTRY_SERVER_USERNAME": "[parameters('docker_registry_username]",
-                  "DOCKER_REGISTRY_SERVER_PASSWORD": "[parameters('docker_registry_password]"
+                  "DOCKER_CUSTOM_IMAGE_NAME": "[parameters('docker_image_name')]",
+                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "[parameters('docker_image_run_command')]",
+                  "DOCKER_REGISTRY_SERVER_URL": "[parameters('docker_registry_url')]",
+                  "DOCKER_REGISTRY_SERVER_USERNAME": "[parameters('docker_registry_username')]",
+                  "DOCKER_REGISTRY_SERVER_PASSWORD": "[parameters('docker_registry_password')]"
                 }
               }
             ]          
