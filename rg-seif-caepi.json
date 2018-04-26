@@ -70,11 +70,11 @@
                   "displayName": "appSettings"
                 },
                 "properties": {
-                  "DOCKER_CUSTOM_IMAGE_NAME": "cfselau/brcaepi",
-                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "nginx",
-                  "DOCKER_REGISTRY_SERVER_URL": "https://registry.hub.docker.com",
-                  "DOCKER_REGISTRY_SERVER_USERNAME": "cfselau",
-                  "DOCKER_REGISTRY_SERVER_PASSWORD": "TestAzure@18"
+                  "DOCKER_CUSTOM_IMAGE_NAME": "[docker_param('image_name')]",
+                  "DOCKER_CUSTOM_IMAGE_RUN_COMMAND": "[docker_param('image_run_command')]",
+                  "DOCKER_REGISTRY_SERVER_URL": "[docker_param('registry_url')]",
+                  "DOCKER_REGISTRY_SERVER_USERNAME": "[docker_param('registry_username')]",
+                  "DOCKER_REGISTRY_SERVER_PASSWORD": "[docker_param('registry_password')]"
                 }
               }
             ]          
