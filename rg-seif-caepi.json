@@ -52,7 +52,7 @@
             },
             "scale": null,
             "properties": {
-                "name": "[parameters('appName')]",
+                "name": "[parameters('sites_AW_SEIF_CAEPI_name')]",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms', parameters('serverfarms_PS_SEIF_CAEPI_name'))]"
             },
             "dependsOn": [
